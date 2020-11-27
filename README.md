@@ -84,7 +84,7 @@ ngrok tcp 1234
 ngrok by @inconshreveable                             (Ctrl+C to quit)  
   
 Session Status                online  
-Account                       aptemcat2202@gmail.com (Plan: Free)  
+Account                       your@email.com (Plan: Free)  
 Version                       2.3.35  
 Region                        United States (us)  
 Web Interface                 http://127.0.0.1:4040  
