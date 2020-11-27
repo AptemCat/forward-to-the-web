@@ -59,17 +59,17 @@ ngrok http 80
 ```
 
 Вы получите экран:  
-ngrok by @inconshreveable                                                                                                                              (Ctrl+C to quit)
-
-Session Status                online
-Account                       your@email.com (Plan: Free)
-Version                       2.3.35
-Region                        United States (us)
-Web Interface                 http://127.0.0.1:4040
-Forwarding                    **http://89c841e72567.ngrok.io** -> http://localhost:80
-Forwarding                    https://89c841e72567.ngrok.io -> http://localhost:80
-
-Connections                   ttl     opn     rt1     rt5     p50     p90
+ngrok by @inconshreveable        (Ctrl+C to quit)  
+  
+Session Status                online  
+Account                       your@email.com (Plan: Free)  
+Version                       2.3.35  
+Region                        United States (us)  
+Web Interface                 http://127.0.0.1:4040  
+Forwarding                    **http://89c841e72567.ngrok.io** -> http://localhost:80  
+Forwarding                    https://89c841e72567.ngrok.io -> http://localhost:80  
+  
+Connections                   ttl     opn     rt1     rt5     p50     p90  
                               0       0       0.00    0.00    0.00    0.00  
 Ваш сервер теперь находится в интернете по адресу http://89c841e72567.ngrok.io.
 
@@ -81,15 +81,15 @@ ngrok tcp 1234
 ```
 
 Вы увидите следующий экран:  
-ngrok by @inconshreveable                                                                                                                              (Ctrl+C to quit)
-
-Session Status                online
-Account                       aptemcat2202@gmail.com (Plan: Free)
-Version                       2.3.35
-Region                        United States (us)
-Web Interface                 http://127.0.0.1:4040
-Forwarding                    **tcp://2.tcp.ngrok.io:17018** -> localhost:1234
-
-Connections                   ttl     opn     rt1     rt5     p50     p90
+ngrok by @inconshreveable                             (Ctrl+C to quit)  
+  
+Session Status                online  
+Account                       aptemcat2202@gmail.com (Plan: Free)  
+Version                       2.3.35  
+Region                        United States (us)  
+Web Interface                 http://127.0.0.1:4040  
+Forwarding                    **tcp://2.tcp.ngrok.io:17018** -> localhost:1234  
+  
+Connections                   ttl     opn     rt1     rt5     p50     p90  
                               0       0       0.00    0.00    0.00    0.00  
-Теперь ваш сервер находится по адресу 2.tcp.ngrok.io на порту 17018.
+Теперь ваш сервер находится по адресу 2.tcp.ngrok.io на порту 17018.  
