@@ -28,9 +28,7 @@
 sudo apt install snapd
 sudo ln -s /var/lib/snapd/snap /snap
 ```
-
 Затем установите сам ngrok:
-
 ```shell
 sudo snap install ngrok
 ```
@@ -38,11 +36,9 @@ sudo snap install ngrok
 ### Mac OS
 
 Установка только через homebrew:
-
 ```shell
 brew cask install ngrok
 ```
-
 ---
 Теперь самое интересное. Эта процедура общая для всех ОС.  
 Зайдите на [сайт](http://temp-mail.org/ru/). Вы сразу получите временный адрес электронной почты, по типу "janipo7484@ofdow.com". Скопируйте его, он нам пригодится.  
@@ -53,11 +49,9 @@ brew cask install ngrok
 ## Использование
 
 Допустим у вас есть веб сервер на порту 80, и вы хотите провести его в интернет. Вот команда:
-
 ```shell
 ngrok http 80
 ```
-
 Вы получите экран:  
 ngrok by @inconshreveable        (Ctrl+C to quit)  
   
@@ -75,11 +69,9 @@ Connections                   ttl     opn     rt1     rt5     p50     p90
 
 ---
 Другой случай. У вас есть сервер протокола TCP: обычный TCP, SSH, FTP или другие виды сервера, не являющиеся HTTP сервером. Он находится на порту 1234. Вот команда для этого случая:
-
 ```shell
 ngrok tcp 1234
 ```
-
 Вы увидите следующий экран:  
 ngrok by @inconshreveable                             (Ctrl+C to quit)  
   
@@ -93,3 +85,4 @@ Forwarding                    **tcp://2.tcp.ngrok.io:17018** -> localhost:1234
 Connections                   ttl     opn     rt1     rt5     p50     p90  
                               0       0       0.00    0.00    0.00    0.00  
 Теперь ваш сервер находится по адресу 2.tcp.ngrok.io на порту 17018.  
+Поздравляю! У вас всё получилось!
